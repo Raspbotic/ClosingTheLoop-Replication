@@ -1,0 +1,3 @@
+# .venv_hotas — Python 3.11: HOTAS transmitter [a: fsim_TA_Peripherals.sysml#HotasControl::runtime "pygame: no cp314 wheels"]
+# Pin from reference_venv_hotas_freeze.txt.
+pygame==2.6.1

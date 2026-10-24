@@ -1,0 +1,68 @@
+================================================= test session starts =================================================
+platform win32 -- Python 3.14.6, pytest-9.1.1, pluggy-1.6.0 -- C:\Users\[redacted]\Desktop\FLIGHTSIM_CLAUDE\.venv_fsim\Scripts\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\[redacted]\Desktop\FLIGHTSIM_CLAUDE\tests
+configfile: pytest.ini
+collected 56 items
+
+tests\test_10_ports_messages.py::TestPortAssignments::test_hotas_control_port PASSED                             [  1%]
+tests\test_10_ports_messages.py::TestPortAssignments::test_pcs_ownship_out PASSED                                [  3%]
+tests\test_10_ports_messages.py::TestPortAssignments::test_sem_ownship_in PASSED                                 [  5%]
+tests\test_10_ports_messages.py::TestPortAssignments::test_pcs_radar_in PASSED                                   [  7%]
+tests\test_10_ports_messages.py::TestPortAssignments::test_sem_radar_out_link PASSED                             [  8%]
+tests\test_10_ports_messages.py::TestPortAssignments::test_native_fdm PASSED                                     [ 10%]
+tests\test_10_ports_messages.py::TestPortAssignments::test_ground_elev_http PASSED                               [ 12%]
+tests\test_10_ports_messages.py::TestPortAssignments::test_osm_host PASSED                                       [ 14%]
+tests\test_10_ports_messages.py::TestMessageRoundTrips::test_hotas_roundtrip PASSED                              [ 16%]
+tests\test_10_ports_messages.py::TestMessageRoundTrips::test_ownship_roundtrip PASSED                            [ 17%]
+tests\test_10_ports_messages.py::TestMessageRoundTrips::test_beacon_roundtrip PASSED                             [ 19%]
+tests\test_10_ports_messages.py::TestMessageRoundTrips::test_malformed_rejected PASSED                           [ 21%]
+tests\test_10_ports_messages.py::TestBeaconProtocol::test_tombstone_semantics PASSED                             [ 23%]
+tests\test_10_ports_messages.py::TestBeaconProtocol::test_stale_exceeds_refresh PASSED                           [ 25%]
+tests\test_10_ports_messages.py::test_airport_local_override PASSED                                              [ 26%]
+tests\test_20_hotas.py::test_demo_transmits_at_60hz PASSED                                                       [ 28%]
+tests\test_20_hotas.py::test_smart_yaw_picks_dominant_axis PASSED                                                [ 30%]
+tests\test_20_hotas.py::test_debug_printer_edges PASSED                                                          [ 32%]
+tests\test_30_physics.py::test_default_aircraft_is_f16 PASSED                                                    [ 33%]
+tests\test_30_physics.py::test_ground_start_stationary PASSED                                                    [ 35%]
+tests\test_30_physics.py::test_engine_off_at_ground_start_no_fuel_burn PASSED                                    [ 37%]
+tests\test_30_physics.py::test_engine_start_spools_and_burns PASSED                                              [ 39%]
+tests\test_30_physics.py::test_loop_rate_120hz PASSED                                                            [ 41%]
+tests\test_30_physics.py::test_native_fdm_packet PASSED                                                          [ 42%]
+tests\test_30_physics.py::test_button_map PASSED                                                                 [ 44%]
+tests\test_30_physics.py::test_ssf_set_own_position_airborne_engine_on PASSED                                    [ 46%]
+tests\test_30_physics.py::test_yaw_drives_both_rudder_and_steering PASSED                                        [ 48%]
+tests\test_30_physics.py::test_terrain_feedback_slews_to_fg_value PASSED                                         [ 50%]
+tests\test_40_orchestrator.py::test_ownship_path_pcs_to_sem PASSED                                               [ 51%]
+tests\test_40_orchestrator.py::test_radar_path_sem_to_pcs_with_tombstone PASSED                                  [ 53%]
+tests\test_40_orchestrator.py::test_burst_no_loss_on_loopback PASSED                                             [ 55%]
+tests\test_50_sem_map.py::test_slant_range_math PASSED                                                           [ 57%]
+tests\test_50_sem_map.py::test_slippy_map_math PASSED                                                            [ 58%]
+tests\test_50_sem_map.py::TestSemTriggers::test_ownship_rx_and_all_triggers PASSED                               [ 60%]
+tests\test_50_sem_map.py::test_map_beacon_table_and_rendering PASSED                                             [ 62%]
+tests\test_50_sem_map.py::TestRadarEquation::test_hand_computed_reference PASSED                                 [ 64%]
+tests\test_50_sem_map.py::TestRadarEquation::test_scaling_laws PASSED                                            [ 66%]
+tests\test_50_sem_map.py::TestRadarEquation::test_rcs_change_recomputes_and_retransmits PASSED                   [ 67%]
+tests\test_60_ui_panels.py::test_sim_control_panel_and_freeze_gate PASSED                                        [ 69%]
+tests\test_60_ui_panels.py::test_airport_selection_repositions_ownship PASSED                                    [ 71%]
+tests\test_60_ui_panels.py::test_system_controls_buttons_command_physics PASSED                                  [ 73%]
+tests\test_60_ui_panels.py::test_engine_button_idle_gate_and_start PASSED                                        [ 75%]
+tests\test_60_ui_panels.py::test_snapshot_roundtrip PASSED                                                       [ 76%]
+tests\test_60_ui_panels.py::test_telemetry_csv_fields_verbatim PASSED                                            [ 78%]
+tests\test_60_ui_panels.py::test_autopilot_panel_holds_targets PASSED                                            [ 80%]
+tests\test_60_ui_panels.py::test_autopilot_sync_on_engage PASSED                                                 [ 82%]
+tests\test_60_ui_panels.py::test_reset_gives_clean_starting_condition PASSED                                     [ 83%]
+tests\test_65_virtual_hotas.py::test_widget_axis_mapping PASSED                                                  [ 85%]
+tests\test_65_virtual_hotas.py::test_stick_springs_back_on_release PASSED                                        [ 87%]
+tests\test_65_virtual_hotas.py::test_virtual_feeds_physics_when_no_physical PASSED                               [ 89%]
+tests\test_65_virtual_hotas.py::test_physical_precedence_and_fallback PASSED                                     [ 91%]
+tests\test_65_virtual_hotas.py::test_pedal_brake_reaches_fdm PASSED                                              [ 92%]
+tests\test_65_virtual_hotas.py::test_stick_mouse_pitch_convention PASSED                                         [ 94%]
+tests\test_65_virtual_hotas.py::test_pedals_spring_back_on_any_release PASSED                                    [ 96%]
+tests\test_65_virtual_hotas.py::test_widget_mirrors_physical_hotas PASSED                                        [ 98%]
+tests\test_70_end_to_end.py::test_full_system_loop PASSED                                                        [100%]
+
+============================================ 56 passed in 71.29s (0:01:11) ============================================
+
+(exit code 0: 0 = all passed)
+Press any key to continue . . .
