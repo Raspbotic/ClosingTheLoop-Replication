@@ -5,7 +5,7 @@ Replication package for the article
 > G. Marsiglia, "Regenerating a Cyber-Physical System with a Large Language Model under a SysML v2-Based Execution Contract," submitted to *Systems Engineering* (Wiley/INCOSE), 2026.
 
 Author: Gianluca Marsiglia, independent researcher, Ingolstadt, Germany. ORCID https://orcid.org/0009-0007-0260-0041.
-Archived version: Zenodo DOI to be added at acceptance. Please cite the article and this package as given in `CITATION.cff`.
+Archived version: https://doi.org/10.5281/zenodo.23628083 (v1.0.0); all versions: https://doi.org/10.5281/zenodo.23628082. Please cite the article and this package as given in `CITATION.cff`.
 
 The package contains the items listed in Section 6.5 of the article and in its Data Availability Statement.
 
