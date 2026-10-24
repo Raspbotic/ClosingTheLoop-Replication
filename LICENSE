@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 2026 Raspbotic
+Copyright (c) 2026 Gianluca Marsiglia
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -19,3 +19,17 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+---
+
+Scope. This license covers the software in this repository: the generated
+applications and test suites under 6_generated_code/, the scripts and batch
+files, the pinned environment manifests under 5_virtual_environments/, and
+the transmitter script under 4_references/. The contract texts, the SysML v2
+model, the requirements workbook, the reference images and the run
+documentation are licensed separately under CC BY 4.0; see LICENSE-DOCS.
+
+Third-party components are not part of this repository and keep their own
+licenses: JSBSim (LGPL-2.1), FlightGear (GPL-2.0), PyQt5 (GPL-3.0 or
+commercial), pygame (LGPL-2.1), and the OpenStreetMap tile service (ODbL data;
+tiles are fetched live and are not redistributed here).

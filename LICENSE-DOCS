@@ -1,1 +1,31 @@
+Creative Commons Attribution 4.0 International (CC BY 4.0)
 
+Copyright (c) 2026 Gianluca Marsiglia
+
+This license covers the documentation and specification artifacts of this
+repository: the execution contract texts and the decision-to-behaviour
+mapping under 1_contract/, the SysML v2 model under 2_model/, the
+requirements workbook under 3_requirements/, the reference screenshots under
+4_references/, the run documentation (intake, architecture, verification
+plans, measurement records, observation notes, closure audits, provenance
+censuses, manual-verification procedures and run records) under
+6_generated_code/*/docs/, and this README.
+
+You are free to share (copy and redistribute the material in any medium or
+format) and to adapt (remix, transform, and build upon the material) for any
+purpose, even commercially, under the following terms:
+
+  Attribution. You must give appropriate credit, provide a link to the
+  license, and indicate if changes were made. You may do so in any
+  reasonable manner, but not in any way that suggests the licensor endorses
+  you or your use. The suggested attribution is the citation in
+  CITATION.cff.
+
+  No additional restrictions. You may not apply legal terms or
+  technological measures that legally restrict others from doing anything
+  the license permits.
+
+This is a human-readable summary of (and not a substitute for) the license.
+The full legal code is at:
+  https://creativecommons.org/licenses/by/4.0/legalcode
+SPDX-License-Identifier: CC-BY-4.0

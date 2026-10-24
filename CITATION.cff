@@ -1,1 +1,32 @@
-
+cff-version: 1.2.0
+message: "If you use this package, please cite both the article and this archived version of the package."
+type: software
+title: "Replication package for: Regenerating a Cyber-Physical System with a Large Language Model under a SysML v2-Based Execution Contract"
+abstract: "Execution contracts (four versions), SysML v2 model, requirements workbook, reference inputs, pinned environments and the generated applications, test suites, audit outputs, provenance censuses and run records of the case study reported in the article."
+authors:
+  - family-names: Marsiglia
+    given-names: Gianluca
+    orcid: "https://orcid.org/0009-0007-0260-0041"
+    affiliation: "Independent researcher, Ingolstadt, Germany"
+version: "1.0.0"
+date-released: "2026-MM-DD"
+license: MIT
+license-url: "https://github.com/Raspbotic/ClosingTheLoop-Replication/blob/main/LICENSE"
+repository-code: "https://github.com/Raspbotic/ClosingTheLoop-Replication"
+keywords:
+  - SysML v2
+  - MBSE
+  - large language models
+  - code generation
+  - execution contract
+  - replication package
+preferred-citation:
+  type: article
+  title: "Regenerating a Cyber-Physical System with a Large Language Model under a SysML v2-Based Execution Contract"
+  authors:
+    - family-names: Marsiglia
+      given-names: Gianluca
+      orcid: "https://orcid.org/0009-0007-0260-0041"
+  journal: "Systems Engineering"
+  year: 2026
+  notes: "Submitted. Volume, pages and DOI to be added at publication."
